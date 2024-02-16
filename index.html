@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+<body>
+    <!-- header section -->
+    <header class="bg-amber-50 h-[600px]">
+        <div class="flex  justify-around pt-24">
+            <div class="">
+                <p class="text-xl font-bold text-slate-400">...SALE FEVER...</p>
+                <h1 class="text-5xl font-[650] text-gray-400 mt-10">Purchase $ 200 or 
+                    <br> above & Get <span class="text-pink-700">20% off</span></h1>
+                    <div class="flex items-center">
+                        <p class=" text-slate-400 mt-8">Use Promo Code</p>
+                        <button class="mt-7 ml-5 p-2 bg-pink-700 text-white font-bold rounded">SELL200</button>
+                    </div>
+            </div>
+            <div>
+                <img src="image/summer.jpg" alt="">
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="mt-20 w-[1600px] mx-auto">
+            <h1 class="text-3xl font-semibold text-gray-400" >Kitchenware</h1>
+            <div class="flex gap-5">
+                <div class="flex gap-4">
+                    <!-- card-1  -->
+                    <div class="card w-96 bg-base-100 shadow-xl mb-5">
+                        <figure class="px-10 pt-10">
+                          <img src="image/kichen1.jpg" alt="Shoes" class="rounded-xl" />
+                        </figure>
+                        <div class="card-body items-center text-center">
+                            <div class="rating rating-md">
+                                <input type="radio" name="rating-7" class="mask mask-star-2 bg-orange-400" />
+                                <input type="radio" name="rating-7" class="mask mask-star-2 bg-orange-400"  />
+                                <input type="radio" name="rating-7" class="mask mask-star-2 bg-orange-400" />
+                                <input type="radio" name="rating-7" class="mask mask-star-2 bg-orange-400" />
+                                <input type="radio" name="rating-7" class="mask mask-star-2 bg-orange-400" />
+                              </div>
+                          <p class="card-title">K.Accessories</p>
+                          <p class="dolar-price font-bold text-xl">$ 24.00</p>
+                        </div>
+                      </div>
+                      <!-- card-2  -->
+                    <div class="card w-96 bg-base-100 shadow-xl mb-5">
+                        <figure class="px-10 pt-10">
+                          <img src="image/kitchen2.jpg" alt="Shoes" class="rounded-xl border w-full" />
+                        </figure>
+                        <div class="card-body items-center text-center">
+                            <div class="rating rating-md">
+                                <input type="radio" name="rating-7" class="mask mask-star-2 bg-orange-400" />
+                                <input type="radio" name="rating-7" class="mask mask-star-2 bg-orange-400"  />
+                                <input type="radio" name="rating-7" class="mask mask-star-2 bg-orange-400" />
+                                <input type="radio" name="rating-7" class="mask mask-star-2 bg-orange-400" />
+                                <input type="radio" name="rating-7" class="mask mask-star-2 bg-orange-400" />
+                              </div>
+                          <p class="card-title">G.Accessories</p>
+                          <p class="dolar-price font-bold text-xl">$ 24.00</p>
+                        </div>
+                      </div>
+                      <!-- card-3 -->
+                    <div class="card w-96 bg-base-100 shadow-xl mb-5">
+                        <figure class="px-10 pt-10">
+                          <img src="image/kitchen3.jpg" alt="Shoes" class="rounded-xl border" />
+                        </figure>
+                        <div class="card-body items-center text-center">
+                            <div class="rating rating-md">
+                                <input type="radio" name="rating-7" class="mask mask-star-2 bg-orange-400" />
+                                <input type="radio" name="rating-7" class="mask mask-star-2 bg-orange-400"  />
+                                <input type="radio" name="rating-7" class="mask mask-star-2 bg-orange-400" />
+                                <input type="radio" name="rating-7" class="mask mask-star-2 bg-orange-400" />
+                                <input type="radio" name="rating-7" class="mask mask-star-2 bg-orange-400" />
+                              </div>
+                          <p class="card-title">Dish Cooker</p>
+                          <p class="dolar-price font-bold text-xl">$ 24.00</p>
+                        </div>
+                      </div>
+                      <!-- card-4  -->
+                    <div class="card hidden w-96 bg-base-100 shadow-xl mb-5">
+                        <figure class="px-10 pt-10">
+                          <img src="image/kitchen4.jpg" alt="Shoes" class="rounded-xl" />
+                        </figure>
+                        <div class="card-body items-center text-center">
+                            <div class="rating rating-md">
+                                <input type="radio" name="rating-7" class="mask mask-star-2 bg-orange-400" />
+                                <input type="radio" name="rating-7" class="mask mask-star-2 bg-orange-400"  />
+                                <input type="radio" name="rating-7" class="mask mask-star-2 bg-orange-400" />
+                                <input type="radio" name="rating-7" class="mask mask-star-2 bg-orange-400" />
+                                <input type="radio" name="rating-7" class="mask mask-star-2 bg-orange-400" />
+                              </div>
+                          <p class="card-title">Presure Cooker</p>
+                          <p class="dolar-price font-bold text-xl">$ 24.00</p>
+                        </div>
+                      </div>
+                </div>
+                <div>
+                    <div class="flex mb-5">
+                        <input id="input-field" type="text" placeholder="Type here" class="input input-bordered input-error w-full max-w-xs" />
+                        <button id="apply-btn" class="btn">Apply</button>
+                    </div>
+                    <div class=" w-[300px]  border p-4 space-y-3">
+                        <div id="title-container" class="">
+    
+                        </div>
+                        <hr>
+                        <p >Total price: $ <span id="totalPrice"></span></p>
+                        <p>Discount: $ <span id="discount-amount"></span></p>
+                        <p>Total: $ <span id="total"></span></p>
+                    </div>
+                    
+                    <button class="btn text-white font-bold  bg-pink-600">Make purchase</button>
+                  </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="script/index.js"></script>
+</body>
+</html>
